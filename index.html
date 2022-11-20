@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="container">
+    <header>
+        <h1 class="dynamic">Dynamic Table</h1>
+    </header>
+    <main class="header">
+        <input id="name" type="text" placeholder="enter your name" autocomplete="off">
+        <input id="email" type="email" placeholder="enter your email" autocomplete="off">
+        <input id="contact" type="number" placeholder="Enter your mobile" autocomplete="off">
+    </main>
+    <div id="button_sub"><button id="btn">Enter</button></div>
+
+    <section id="error"></section>
+
+
+    <section id="table_section">
+        <table>
+            <thead>
+
+                <tr>
+                    <th class="head_name">Name</th>
+                    <th class="head_name">Email</th>
+                    <th class="head_name">Phone No</th>
+                    <th class="head_name">Action</th>
+                </tr>
+            </thead>
+
+            <tbody id="body"></tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

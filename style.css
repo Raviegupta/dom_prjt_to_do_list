@@ -1,0 +1,145 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary:#db4c58;
+    --secondary:#f587d4;
+    --ternary:#f8e8ea;
+    --error:rgb(224, 51, 51);
+    --submit:#198754;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: var(--ternary);
+}
+
+.dynamic{
+    text-align: center;
+    margin:2rem;
+    font-family: 'Great Vibes', cursive;
+    color: var(--primary);
+    font-size: 50px;
+     /* border: 2px solid red; */
+}
+
+.header{
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;  
+    display: flex;   
+    /* border: 2px solid red; */
+}
+
+.header input{
+    padding:10px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid var(--primary);
+    color:var(--primary);
+    margin-top: 10px;
+    border: 10px solid red;
+}
+
+#btn{
+    margin-left: 5px;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    min-width: 100px;
+    background-color: var(--submit);
+    font-size: 20px;
+    color: white;
+    border:2px solid transparent;
+    margin-bottom: 20px;
+    border: 5px solid red;   
+    }
+
+    #button_sub{
+        text-align: center;
+    }
+
+#btn:hover{
+    color:var(--submit);
+    background-color: white;
+    border: 2px solid var(--submit);
+    cursor:pointer;
+}
+
+#error{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    color: var(--error);
+}
+
+
+
+/* script classes */
+.del{
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--error);
+    font-size: 20px;
+    color: white;
+    border:2px solid transparent;
+}
+
+.del:hover{
+    cursor: pointer;
+    background-color: white;
+    color:var(--error);
+    border:2px solid var(--error);
+}
+
+
+
+/* #table_section{
+    overflow-x:auto;
+} */
+
+
+
+table, th, td {   
+    border-collapse: separate;
+    padding:20px;
+    text-align: center;
+  }
+
+ th{
+    background-color: var(--primary);
+    color:white;
+    font-size: 25px;
+ }
+
+  table{
+    width:63%;
+    margin: 100px auto;
+    border-spacing: 5px 5px;
+  }
+
+  ::placeholder { 
+    color: var(--primary);
+    opacity: 0.7; 
+  }
+
+  
+
+
+  
