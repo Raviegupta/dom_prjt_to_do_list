@@ -10,20 +10,20 @@
 </head>
 
 <body class="container">
-    <header>
-        <h1 class="dynamic">Dynamic Table</h1>
+    <header class="container">
+        <h1 class="info">Info Table</h1>
     </header>
-    <main class="header">
-        <input id="name" type="text" placeholder="enter your name" autocomplete="off">
-        <input id="email" type="email" placeholder="enter your email" autocomplete="off">
-        <input id="contact" type="number" placeholder="Enter your mobile" autocomplete="off">
+    <main class="header container">
+        <input id="name" type="text" placeholder="Enter your name here..." autocomplete="off">
+        <input id="email" type="email" placeholder="Enter your email here..." autocomplete="off">
+        <input id="contact" type="number" placeholder="Enter your phone no..." autocomplete="off">
     </main>
-    <div id="button_sub"><button id="btn">Enter</button></div>
+    <div id="add_button_div"><button id="btn">Add</button></div>
 
     <section id="error"></section>
 
 
-    <section id="table_section">
+    <main id="main_table">
         <table>
             <thead>
 
@@ -37,7 +37,7 @@
 
             <tbody id="body"></tbody>
         </table>
-    </section>
+    </main>
 
     <script src="script.js"></script>
 </body>

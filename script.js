@@ -8,12 +8,12 @@ const error = document.getElementById('error')
 btn.addEventListener('click', () => {
 
    if (names.value == "") {
-      error.innerText = "*please enter your name"
+      error.innerText = "*name field is compulsory"
 
       return;
    }
    if (email.value == "") {
-      error.innerText = "*please enter your email"
+      error.innerText = "*email field is compulsory"
       return;
    }
    else if (!email.value.includes("@")) {
@@ -21,7 +21,7 @@ btn.addEventListener('click', () => {
       return;
    }
    if (phone.value == "") {
-      error.innerText = "*please enter your Phone number"
+      error.innerText = "*phone field is compulsory"
       return;
    } else if (phone.value.length !== 10) {
       error.innerText = "*please enter only 10 digits"
